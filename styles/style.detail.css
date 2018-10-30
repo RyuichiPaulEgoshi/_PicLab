@@ -1,0 +1,287 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: linear-gradient(to right, #164D48 0%, #0A9188 50%, #164D48 100%);
+}
+
+/* ----------seen screen-- */
+
+div.header-container{
+    width: 80%;
+    height: 100px;
+    margin: 0 auto;
+}
+
+/* LOGO */
+
+div.logo-container{
+    background-image: url("../pics/PickLabLogo.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 90px;
+    width: 90px;
+    float: left;
+    margin: 5px 5px;
+}
+
+/* LOGIN */
+
+form.login-container{
+    background-color: #164D48;
+    height: 70px;
+    width: 65%;
+    float: right;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+form.login-container input{
+    font-size: 80%;
+    text-align: center;
+    height: 20px;
+    width: 35%;
+    float: left;
+    margin: 25px 0px 25px 5px;
+    font-family: 'Courier';
+}
+
+form.login-container p{
+    background-color: white;
+    font-size: 25px;
+    height: 30px;
+    width: 70%;
+    float: left;
+    text-align: center;
+    color: black;
+    margin: 20px 10px 20px 0px;
+    font-family: 'Courier';
+}
+
+form.login-container button{
+    font-size: 100%;
+    height: 30px;
+    width: 15%;
+    float: right;
+    margin: 20px 10px 20px 0px;
+    font-family: 'OCRB';
+}
+
+form.login-container button:hover{
+    color: white;
+    background-color: #164D48
+}
+
+/* ----------main-- */
+
+div.main-container{
+    background-image: url("../pics/MTBuild.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+}
+
+/* NAVBAR */
+
+div.nav-container ul{
+    width: 80%;
+    height: 40px;
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 0 auto;
+    overflow: hidden;
+    background-color: rgb(0, 44, 37);
+    opacity: 0.7;
+    font-family: 'Courier';
+}
+
+div.nav-container li {
+    float: left;
+    width: 20%;
+}
+
+div.nav-container li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-decoration: none;
+}
+
+div.nav-container li a:hover {
+    background-color: #164D48;
+    opacity: 0.7;
+}
+
+/* CONTENT */
+
+div.content-container{
+    width: 80%;
+    margin: 10px auto 10px auto;
+    font-family: 'PMingLiU';
+}
+
+div.maintitle-wrapper{
+    background-color: black;
+    opacity: 0.6;
+    width: 100%;
+    height: 80px;
+    color: white;
+    text-align: center;
+    font-family: 'Courier';
+}
+
+div.maintitle-wrapper p{
+    font-size: 20px;
+    padding: 30px;
+}
+
+div.title-wrapper{
+    background-color: black;
+    opacity: 0.6;
+    width: 100%;
+    height: 40px;
+    color: white;
+    text-align: center;
+    font-family: 'Courier';
+}
+
+div.title-wrapper p{
+    font-size: 20px;
+    padding: 10px;
+}
+
+div.cont-wrapper{
+    background-color: white;
+    width: 100%;
+    min-height: 100px;
+}
+
+div.cont-wrapper p{
+    width: 90%;
+    margin: 0 auto;
+}
+
+table.tbl-info{
+    width: 50%;
+    height: auto;
+    margin: 0 auto; 
+}
+
+td.clm1{
+    text-align: right;
+}
+
+div.cont-wrapper img{
+    width: 50%;
+    height: auto;
+    margin: 0 auto;
+}
+
+div.button-container{
+    width: 50%;
+    height: 20px;
+    margin: 0 auto;
+}
+
+
+img.mySlides {
+    display:none;
+}
+
+table.tbl-schedule{
+    width: 100%;
+    height: auto;
+    margin: auto;
+    border-collapse: collapse;
+}
+
+table.tbl-schedule table th td{
+    margin: 10px;
+}
+
+table.tbl-schedule th{
+    background-color: #03342E;
+    text-align: center;
+    width: 14.3%;
+    color: white;
+}
+
+table.tbl-schedule th:nth-child(1){
+    color: #03342E;
+    text-align: center;
+    background-color: #B1DFDF;
+    border-right: 1px solid #03342E;
+    border-bottom: 1px solid #03342E;
+}
+
+table.tbl-schedule td{
+    margin: 10px;
+}
+
+table.tbl-schedule td:nth-child(1){
+    background-color: #B1DFDF;
+    text-align: right;
+    border-right: 1px solid #03342E;
+}
+
+div.item-container{
+    border-bottom: 2px solid #164D48;
+    width: 100%;
+    height: 200px;
+    margin: 0;
+    padding: 10px;
+    align-items: initial;
+}
+
+div.item-container img{
+    width: 200px;
+    height: 200px;
+    box-shadow: 3px 3px #03342E;
+    margin: 0;
+    padding: 0;
+}
+
+div.item-container ul{
+    width: auto;
+    height: 200px;
+    margin-top: -205px;
+    margin-left: 210px;
+    margin-right: 20px;
+    padding: 0;
+}
+
+div.item-container a{
+    text-decoration: none;
+    color: #03342E;
+    width: auto;
+    font-size: 25px;
+}
+
+div.item-container a:hover{
+    color: #0A9188;
+}
+
+div.item-container p{
+    width: auto;
+    font-size: 15px;
+}
+
+
+/* ----------footer-- */
+
+div.footer-container{
+    background: #03342E;
+	color: white;
+	text-align:center;
+	margin:0;
+    height:40px;
+    padding-top: 10px;
+    font-family: 'Courier';
+}

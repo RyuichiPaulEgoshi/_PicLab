@@ -1,0 +1,288 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: linear-gradient(to right, #164D48 0%, #0A9188 50%, #164D48 100%);
+}
+
+/* ----------seen screen-- */
+
+div.header-container{
+    width: 80%;
+    height: 100px;
+    margin: 0 auto;
+}
+
+/* LOGO */
+
+div.logo-container{
+    background-image: url("../pics/PickLabLogo.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 90px;
+    width: 90px;
+    float: left;
+    margin: 5px 5px;
+}
+
+/* LOGIN */
+
+form.login-container{
+    background-color: #164D48;
+    height: 70px;
+    width: 65%;
+    float: right;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+form.login-container input{
+    font-size: 80%;
+    text-align: center;
+    height: 20px;
+    width: 35%;
+    float: left;
+    margin: 25px 0px 25px 5px;
+    font-family: 'Courier';
+}
+
+form.login-container p{
+    background-color: white;
+    font-size: 25px;
+    height: 30px;
+    width: 70%;
+    float: left;
+    text-align: center;
+    color: black;
+    margin: 20px 10px 20px 0px;
+    font-family: 'Courier';
+}
+
+form.login-container button{
+    font-size: 100%;
+    height: 30px;
+    width: 15%;
+    float: right;
+    margin: 20px 10px 20px 0px;
+    font-family: 'OCRB';
+}
+
+form.login-container button:hover{
+    color: white;
+    background-color: #164D48
+}
+
+/* ----------main-- */
+
+div.main-container{
+    background-image: url("../pics/MTBuild.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+}
+
+/* NAVBAR */
+
+div.nav-container ul{
+    width: 80%;
+    height: 40px;
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 0 auto;
+    overflow: hidden;
+    background-color: rgb(0, 44, 37);
+    opacity: 0.7;
+    font-family: 'Courier';
+}
+
+div.nav-container li {
+    float: left;
+    width: 20%;
+}
+
+div.nav-container li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-decoration: none;
+}
+
+div.nav-container li a:hover {
+    background-color: #164D48;
+    opacity: 0.7;
+}
+
+div.pickLab-title{
+    background-image: url("../pics/PickLabLogo3.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    opacity: 0.3;
+    width: 100%;
+    height: 100%;
+    margin-top: 250px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 0;
+}
+
+/* ----------under of screen-- */
+
+div.content-container{
+    width: 80%;
+    margin: 10px auto 10px auto;
+    font-family: 'PMingLiU';
+}
+
+/* CONTENT */
+
+div.maintitle-wrapper{
+    background-color: black;
+    opacity: 0.6;
+    width: 100%;
+    height: 80px;
+    color: white;
+    text-align: center;
+    font-family: 'Courier';
+}
+
+div.maintitle-wrapper p{
+    font-size: 20px;
+    padding: 30px;
+}
+
+div.title-wrapper{
+    background-color: black;
+    opacity: 0.6;
+    width: 100%;
+    height: 40px;
+    color: white;
+    text-align: center;
+    font-family: 'Courier';
+}
+
+div.title-wrapper p{
+    font-size: 20px;
+    padding: 10px;
+}
+
+div.cont-wrapper{
+    background-color: white;
+    width: 100%;
+    min-height: 100px;
+}
+
+div.item-container{
+    border-bottom: 2px solid #164D48;
+    width: 100%;
+    min-height: 200px;
+    margin: 0;
+    padding: 10px;
+    align-items: initial;
+}
+
+div.item-container img{
+    width: 200px;
+    height: 200px;
+    box-shadow: 3px 3px #03342E;
+    margin: 0;
+    padding: 0;
+}
+
+div.item-container ul{
+    width: auto;
+    height: 200px;
+    margin-top: -205px;
+    margin-left: 210px;
+    margin-right: 20px;
+    padding: 0;
+}
+
+div.item-container a{
+    text-decoration: none;
+    color: #03342E;
+    width: auto;
+    font-size: 25px;
+}
+
+div.item-container a:hover{
+    color: #0A9188;
+}
+
+div.item-container p{
+    width: auto;
+    font-size: 15px;
+}
+
+form.form-wrapper{
+    width: 100%;
+    margin: auto;
+    padding: 5px;
+    font-size: 10px;
+    text-align: left;
+}
+
+form.form-wrapper p{
+    margin: 10px;
+    margin-left: 20px;
+    font-family: 'Courier';
+}
+
+form.form-wrapper input{
+    border: solid 2px#0A9188;
+    width: 80%;
+    height: 15px;
+    padding: 10px;
+    margin: auto;
+    margin-left: 40px;
+}
+
+form.form-wrapper button{
+    text-align: left;
+    height: 40px;
+    width: auto;
+    margin: 5px;
+    padding: 5px;
+    font-size: 15px;
+}
+
+div.invisible{
+    visibility: hidden;
+    position: absolute;
+    top: -9999px;
+}
+
+button.btn1{
+    background-color: #0A9188;
+}
+
+button.btn2{
+    background-color: rgb(151, 70, 94);
+}
+
+button.btn3{
+    background-color: rgb(201, 187, 59);
+}
+
+/* ----------footer-- */
+
+div.footer-container{
+    background: #03342E;
+	color: white;
+	text-align:center;
+	margin:0;
+    height:40px;
+    padding-top: 10px;
+    font-family: 'Courier';
+}
+
+
+
+
+
